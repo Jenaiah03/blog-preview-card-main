@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    align-items: center;
+    height: 100vh;
+     justify-content: center ; 
+     gap: 20px; 
+     font-family: 'Figtree';
+     font-size: 16px;
+}
+
+.container{
+    background-color: hsl(0, 0%, 100%);
+    width: 300px;
+   padding: 20px;
+   border: 1px solid;
+   margin: auto;
+   border-radius: 16px;
+   box-shadow: 5px 5px;
+   
+}
+
+img{
+    width: 300px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+button{
+    background-color:  hsl(47, 88%, 63%); 
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.index{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+
+}
+.image-avatar{
+    display: flex;
+    gap: 10px;
+}
+
+.image-avatar img{
+    width: 40px;
+}
+
+
+
+.paragraph{
+    color: hsl(0, 0%, 42%);
+}
+
+p{
+    color:hsl(0, 0%, 7%);
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
